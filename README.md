@@ -8,11 +8,13 @@ public class Bullet : MonoBehaviour, IPoolable
     public void OnSpawn()
     {
         Debug.Log("Spawn Bullet");
+        thực hiện các logic ban đầu : kiểu như HPEnemy = 100;
     }
 
     public void OnDespawn()
     {
         Debug.Log("Despawn Bullet");
+        ví dụ : dừng animation ...
     }
 }
 </code></pre>
